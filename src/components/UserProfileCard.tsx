@@ -1,7 +1,6 @@
 import { useEffect, useState } from 'react';
 import { getUserProfile } from '@/api/getUserProfile';
 import avatar from '../assets/avatar.svg'
-import { Card, CardContent, CardTitle } from './ui/card';
 
 type UserProfile = {
   login: string;
